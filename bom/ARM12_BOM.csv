@@ -1,0 +1,20 @@
+Item,Category,Quantity,Reference,Description,Status
+ARM-MOD-001,Mechanical,12,ARM01-ARM12,Identical modular arm assemblies,Conceptual
+BASE-PLATE-001,Mechanical,12,ARM01-ARM12,Arm base mounting plate,Conceptual
+LINK-UPPER-001,Mechanical,12,ARM01-ARM12,400 mm upper link reference,Conceptual
+LINK-FORE-001,Mechanical,12,ARM01-ARM12,400 mm forearm reference,Conceptual
+EXT-FORE-001,Mechanical,12,ARM01-ARM12,400 mm telescoping extension reference,Conceptual
+WRIST-FLANGE-001,Mechanical,12,ARM01-ARM12,Modular wrist/tool interface,Conceptual
+ACT-JOINT-001,Actuation,48,All arms,Placeholder smart actuator positions for four-axis scaffold,Validate before procurement
+BEARING-001,Mechanical,48,All arms,Joint bearing positions,Size by load case
+ENCODER-001,Sensing,48,All arms,Joint position feedback,Select with actuator
+TEMP-001,Sensing,48,All arms,Temperature monitoring points,Validate sensor placement
+MCU-001,Electronics,12,ARM01-ARM12,Local real-time controller,Prototype class
+BUS-001,Electronics,12,ARM01-ARM12,Protected field-bus interface,Select RS-485 or CAN architecture
+POWER-001,Electronics,12,ARM01-ARM12,Local protected power input,Size from validated actuator load
+ESTOP-001,Safety,1,System,Hardware emergency-stop chain,Required
+PDU-001,Electronics,1,System,Central power distribution,Size after load analysis
+HOST-001,Computing,1,System,High-level computer,Prototype class
+CABLE-001,Electrical,12,ARM01-ARM12,Protected power and communications harness,Route and strain-relieve
+FASTENER-001,Mechanical,TBD,All arms,Structural fasteners,Select by engineering calculation
+GUARD-001,Safety,TBD,System,Physical guarding and pinch-point protection,Required before human-access operation
