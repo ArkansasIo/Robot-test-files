@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "arm_count": 12,
+  "mechanically_identical": true,
+  "arms": [
+    {"id":"ARM01","role":"Inspection / vision"},
+    {"id":"ARM02","role":"Precision manipulation"},
+    {"id":"ARM03","role":"Inspection / vision"},
+    {"id":"ARM04","role":"Light assembly"},
+    {"id":"ARM05","role":"Cable and connector handling"},
+    {"id":"ARM06","role":"Tool handling"},
+    {"id":"ARM07","role":"Surface inspection"},
+    {"id":"ARM08","role":"Component placement"},
+    {"id":"ARM09","role":"Maintenance assistance"},
+    {"id":"ARM10","role":"Measurement / sensing"},
+    {"id":"ARM11","role":"General manipulation"},
+    {"id":"ARM12","role":"Reserve / adaptive task"}
+  ]
+}
